@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Firebase Data Display</title>
+    <!-- Include Firebase scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.2/firebase-database.js"></script>
+    <!-- Include your custom JavaScript -->
+    <script src="app.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Temperature and Humidity Data</h2>
+    <p>Temperature: <span id="temperature">Loading...</span> &#8451;</p>
+    <p>Humidity: <span id="humidity">Loading...</span> %</p>
+    <h2>LED Status</h2>
+    <p>LED is: <span id="ledStatus">Loading...</span></p>
+</body>
+</html>
